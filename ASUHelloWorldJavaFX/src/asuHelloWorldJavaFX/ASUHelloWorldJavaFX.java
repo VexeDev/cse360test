@@ -18,10 +18,10 @@ public class ASUHelloWorldJavaFX extends Application {
     	System.out.println("It started!");
         primaryStage.setTitle("Maddox Hello World Spring 2024");
         Button btn = new Button();
-        btn.setText("Display: 'Maddox says: Hello World!'");
+        btn.setText("Display: 'Maddox says: Hello World! This is push number 3.'");
         btn.setOnAction(new EventHandler<>() {
             public void handle(ActionEvent event) {
-                System.out.println("Maddox: Hello World!");
+                System.out.println("Maddox: Hello World! This is push number 3.");
             }
         });
         
